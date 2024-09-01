@@ -1,0 +1,63 @@
+#button1{
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #21a6ad;
+    cursor: pointer;
+    background-color:#21a6ad ;    border-radius: 50%;
+    color: white;
+    transition: box-shadow 600ms ease-in-out;
+    transition: transform 600ms ease;
+
+
+}
+
+#center-text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    font-size: 50px;
+    transition:transform 60ms ease-in, opacity 600ms ease-out;
+}
+.text-change{
+    animation: scaleText 1s linear;
+}
+
+@keyframes scaleText{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: 0.5;
+
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+
+    }
+}
+/* #center-text:hover{
+    transform: scale(10,10);
+    transition: 600ms;
+} */
+#button1:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    animation: rotate-button 1s linear infinite;
+}
+@keyframes rotate-button {
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+    
+}

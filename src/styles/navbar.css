@@ -1,0 +1,32 @@
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lavender;
+    color: white;
+    padding: 10px;
+  
+  }
+  #menus{
+    display: flex;
+    align-items: center;
+  
+  }
+  #menus p{
+    color: black;
+    padding: 0px 10px;
+  
+  }
+  #logo{
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  a{
+    text-decoration: none;/* to remove underline*/
+  }
+  a:hover{
+    transform: scale(1.2,1.2) rotate(360deg);
+    transition: 600ms;
+  }
