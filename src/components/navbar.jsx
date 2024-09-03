@@ -17,6 +17,8 @@ export default function Navbar({ title }) {
           <Link to='/documents'><p>Documents</p>  </Link>
           <Link to='/downloads'> <p>Downloads</p></Link>
           <Link to='/login'> <p>Login</p></Link>
+          <Link to='/register'> <p>Register</p></Link>
+
 
         </div>
       </div>

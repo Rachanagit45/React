@@ -10,6 +10,7 @@ import Documents from './pages/documents';
 import Settings from './pages/settings';
 import Profile from './pages/profile';
 import Login from './pages/login';
+import Register from './pages/register';
 
 
 
@@ -27,6 +28,8 @@ root.render(
           <Route path='profile' element={<Profile />} />
           <Route path='settings' element={<Settings />} />
           <Route path='login' element={<Login />} />
+          <Route path='register' element={<Register />} />
+
 
         </Route>
       </Routes>
