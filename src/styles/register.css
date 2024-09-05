@@ -1,56 +1,67 @@
 #register-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 550px;
-    padding: 20px;
-    border: 1px solid red;
-    border-radius: 20px;
-    background-color: bisque;
-    padding-left: 40px;
-    box-shadow: 0px 0px 40px 10px violet;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  padding: 20px;
+  border: 1px solid rgb(82, 187, 252);
+  border-radius: 40px;
+  
+background-image: url(https://i.pinimg.com/originals/f5/ea/d5/f5ead5eaa9591106322dd2e6e835a26c.jpg );
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  color: black;
+box-shadow: 0 0 10px 5px white;
+
+
 }
 
 #title {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#re {
-    border-bottom: 2px solid rgb(255, 0, 208);
-
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .row-field {
-    display: flex;
-    gap: 5vw;
-    margin-bottom: 2vh;
-    align-items: center;
+  display: flex;
+  gap: 5vw;
+  margin-bottom: 2vh;
+  align-items: center;
+  color: yellow;
 }
 
 .gender label {
-    font-weight: bold;
-    margin-right: 10px;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 .gender input {
-    position: relative;
-    margin-left: 1.5vw;
+  position: relative;
+  margin-left: 1.5vw;
 }
 
 .gender input[type="radio"] {
-    accent-color: purple;
+  accent-color: purple;
 }
 
 .gender input[type="radio"]:hover {
-    accent-color: grey;
+  accent-color: grey;
 }
 
 #submit {
-    background-color: aqua;
-    color: black;
-    margin-top: 3vh;
-
+  background-color: lavenderblush;
+  margin-top: 40px;
+  display: flex;
+  justify-content: start;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  width: 60%;
+  height: 40%;
+  box-shadow: 0px 0px 40px 10px lavender;
+  border: 1px solid white;
 }
+

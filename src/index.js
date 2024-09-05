@@ -16,6 +16,7 @@ import Register from './pages/register';
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
